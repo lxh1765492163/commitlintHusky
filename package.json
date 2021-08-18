@@ -2,20 +2,17 @@
   "name": "commitlintHusky",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "commitlint.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "husky": "^7.0.1",
-    "install": "^0.13.0",
-    "npm": "^7.20.6"
+    "husky": "^7.0.1"
   },
   "husky": {
     "hooks": {
