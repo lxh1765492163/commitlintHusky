@@ -1,0 +1,23 @@
+{
+  "name": "commitlintHusky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.1",
+    "install": "^0.13.0",
+    "npm": "^7.20.6"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
