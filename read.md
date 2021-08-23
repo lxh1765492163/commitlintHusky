@@ -29,7 +29,10 @@ chore：不属于以上类型的其他类型(日常事务)
 1,package.json 中 script添加
 "prepare": "husky install"
 
-2,执行yarn安装
 
-3,终端运行
+2, git init 初始化git
+
+3, 执行yarn安装
+
+4 ,终端运行
 npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
